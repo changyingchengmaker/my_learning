@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1746837393.06177 "d:/my_learning/latex/1.tex" "1.pdf" "1" 1746837394.11892 0
-  "1.aux" 1746837393 428 9e9e84a8e4d9a8d668f6e3208a13aff6 "pdflatex"
-  "1.tex" 1746623902 1213 9a49187ea6b82716d9eb7fc71ad4c4a6 ""
-  "d:/my_learning/latex/1.tex" 1746623902 1213 9a49187ea6b82716d9eb7fc71ad4c4a6 ""
+["pdflatex"] 1746926244.36677 "d:/my_learning/latex/1.tex" "1.pdf" "1" 1746926245.32862 0
+  "1.aux" 1746926245 428 b5c69c8899433f00d2c7746e4c3587bb "pdflatex"
+  "1.tex" 1746926243 1315 57aef91e21a6e0a4993c95fedb86add2 ""
+  "d:/my_learning/latex/1.tex" 1746926243 1315 57aef91e21a6e0a4993c95fedb86add2 ""
   "d:/texlive/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1745030850 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1745025429 1004 54797486969f23fa377b128694d548df ""
   "d:/texlive/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1745025429 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -30,6 +30,7 @@
   "d:/texlive/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1745025429 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "d:/texlive/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1745025429 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "d:/texlive/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1745025429 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "d:/texlive/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1745025429 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "d:/texlive/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1745034879 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "d:/texlive/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1745025440 2222 2166a1f7827be30ddc30434e5efcee1b ""
   "d:/texlive/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty" 1745025440 4173 d22509bc0c91281d991b2de7c88720dd ""
