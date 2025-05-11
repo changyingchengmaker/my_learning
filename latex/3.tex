@@ -1,0 +1,66 @@
+\documentclass[12pt]{ctexart}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+
+\begin{document}
+
+
+计算沿曲线 $y=1-x^2$ 从 $A(1,0)$ 到 $B(-1,0)$ 的曲线积分：
+\[
+\int_L \bigl(1 - ye^x\bigr)\,dx + \bigl(x + e^y\bigr)\,dy.
+\]
+
+为应用 Green 公式，引入闭合曲线 C，其中 C 为 $x$ 轴上从 $B(-1,0)$ 到 $A(1,0)$ 的直线段。
+\[
+P(x,y)=1 - ye^x,\qquad Q(x,y)=x + e^y.
+\]
+
+\[
+\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}
+=1 - \bigl(-e^x\bigr)
+=1 + e^x.
+\]
+
+
+区域 $D$ 为 $-1\le x\le1$ 且 $0\le y\le1-x^2$，故：
+\[
+\iint_D(1+e^x)\,dA
+=\int_{x=-1}^{1}\int_{y=0}^{1-x^2}(1+e^x)\,dy\,dx
+=\int_{-1}^1(1+e^x)(1-x^2)\,dx.
+\]
+\[
+\int_{-1}^1(1-x^2)\,dx=\Bigl[x-\tfrac{x^3}{3}\Bigr]_{-1}^1=\tfrac{4}{3},
+\]
+\[
+\int_{-1}^1 e^x(1-x^2)\,dx
+=\int_{-1}^1e^x\,dx - \int_{-1}^1 x^2e^x\,dx
+=(e-\tfrac1e)-\bigl(e-\tfrac{5}{e}\bigr)=\tfrac{4}{e}.
+\]
+\[
+\iint_D(1+e^x)\,dA=\frac{4}{3}+\frac{4}{e}.
+\]
+
+在 C上，$y=0,\,dy=0$，且 $P=1$，于是：
+\[
+\int_{C}P\,dx+Q\,dy=\int_{x=-1}^{1}1\,dx=2.
+\]
+
+由闭合路径积分分解：
+\[
+\oint_L=\int_{C+L}-\int_{C},
+\]
+故
+\[
+\int_L P\,dx+Q\,dy=\oint_{C+L}-\int_{C}
+=\Bigl(\tfrac{4}{3}+\tfrac{4}{e}\Bigr)-2
+=\frac{4}{e}-\frac{2}{3}.
+\]
+
+\section*{结论}
+\[
+\boxed{\int_L\bigl(1-ye^x\bigr)\,dx+\bigl(x+e^y\bigr)\,dy = \frac{4}{e}-\frac{2}{3}.}
+\]
+
+\end{document}
